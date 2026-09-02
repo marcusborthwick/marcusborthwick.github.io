@@ -3,16 +3,26 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
 <BaseLayout>
-  <h1>Welcome</h1>
+    <section class="home-intro">
+        <p class="home-kicker">Personal website</p>
 
-  <p>Welcome to my website.</p>
+        <h1>Welcome</h1>
 
-  <section>
-    <h2>Latest</h2>
+        <p class="home-lead">
+            Writing, photography, music, and other things I'm interested in.
+        </p>
+    </section>
 
-    <p>
-      This is where I'll eventually feature my latest writing, photography,
-      and music.
-    </p>
-  </section>
+    <section class="home-latest">
+        <p class="section-label">Latest</p>
+
+        <h2>Notes from the studio</h2>
+
+        <p>
+            This is where I'll eventually feature recent writing, photographs,
+            music, and other projects.
+        </p>
+
+        <a href="/blog/">Read the blog →</a>
+    </section>
 </BaseLayout>

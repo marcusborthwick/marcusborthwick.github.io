@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+
+  color: #222;
+  background-color: #d3f5f2;
+}
+
+header {
+  border-bottom: 1px solid #222;
+}
+
+nav {
+  display: flex;
+  gap: 1.75rem;
+
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+nav a {
+  color: #222;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 0 0 4rem;
+
+  font-size: 4rem;
+  line-height: 1;
+}
+
+article {
+  margin: 0 0 3.5rem;
+  padding-bottom: 3.5rem;
+
+  border-bottom: 1px solid #c5d9d7;
+}
+
+article h2 {
+  margin: 0 0 0.75rem;
+
+  font-size: 2.25rem;
+  line-height: 1.15;
+}
+
+article h2 a {
+  color: #222;
+  text-decoration: none;
+}
+
+article h2 a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  margin: 0 0 0.5rem;
+
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.post-excerpt {
+  max-width: 650px;
+  margin: 0;
+
+  font-size: 1.05rem;
+}
+
+footer {
+  max-width: 900px;
+  margin: 4rem auto 0;
+  padding: 2rem;
+
+  border-top: 1px solid #c5d9d7;
+
+  color: #666;
+}
+
+nav a.active {
+  font-weight: 700;
+}
+
+article > h1 {
+  margin-bottom: 2rem;
+}
+
+article > p:not(.post-date) {
+  max-width: 680px;
+  margin: 0 0 1.5rem;
+
+  font-size: 1.1rem;
+}
+
+article > h1 + p {
+  margin-top: 0;
+}
+
+article h3,
+article h4 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem 0;
+}
+
+.home-intro {
+  margin-bottom: 7rem;
+}
+
+.home-kicker,
+.section-label {
+  margin: 0 0 1rem;
+
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.home-intro h1 {
+  margin-bottom: 1.5rem;
+}
+
+.home-lead {
+  max-width: 650px;
+  margin: 0;
+
+  font-size: 1.35rem;
+}
+
+.home-latest {
+  max-width: 680px;
+}
+
+.home-latest h2 {
+  margin: 0 0 1rem;
+
+  font-size: 2.25rem;
+  line-height: 1.15;
+}
+
+.home-latest p:not(.section-label) {
+  margin: 0 0 1.5rem;
+
+  font-size: 1.05rem;
+}
+
+.home-latest a {
+  color: #222;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-latest a:hover {
+  text-decoration: underline;
+}
+
+article > img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+  margin: 2.5rem 0 3rem;
+}

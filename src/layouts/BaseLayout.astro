@@ -25,11 +25,39 @@ const {
   <body>
     <header>
       <nav>
-        <a href="/">Home</a>
-        <a href="/blog/">Blog</a>
-        <a href="/about/">About</a>
-        <a href="/photography/">Photography</a>
-        <a href="/music/">Music</a>
+          <a href="/" class:list={{ active: Astro.url.pathname === "/" }}>
+              Home
+          </a>
+
+          <a
+              href="/blog/"
+              class:list={{ active: Astro.url.pathname.startsWith("/blog") }}
+          >
+              Blog
+          </a>
+
+          <a
+              href="/about/"
+              class:list={{ active: Astro.url.pathname.startsWith("/about") }}
+          >
+              About
+          </a>
+
+          <a
+              href="/photography/"
+              class:list={{
+                  active: Astro.url.pathname.startsWith("/photography"),
+              }}
+          >
+              Photography
+          </a>
+
+          <a
+              href="/music/"
+              class:list={{ active: Astro.url.pathname.startsWith("/music") }}
+          >
+              Music
+          </a>
       </nav>
     </header>
 
