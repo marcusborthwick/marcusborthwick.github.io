@@ -193,3 +193,32 @@ article > img {
   object-fit: cover;
   margin: 2.5rem 0 3rem;
 }
+
+.photography-intro {
+  margin-bottom: 5rem;
+}
+
+.photography-intro h1 {
+  margin-bottom: 1.5rem;
+}
+
+.photography-intro p:not(.section-label) {
+  max-width: 600px;
+  margin: 0;
+
+  font-size: 1.1rem;
+}
+
+.photography-gallery {
+  width: 100%;
+}
+
+.photography-gallery figure {
+  margin: 0 0 4rem;
+}
+
+.photography-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
