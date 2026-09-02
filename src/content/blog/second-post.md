@@ -1,6 +1,6 @@
 ---
 title: "My Second Post"
-date: 2026-09-03
+date: "2026-09-02"
 tags:
   - test
 excerpt: "A second test to make sure the blog can handle multiple posts."
