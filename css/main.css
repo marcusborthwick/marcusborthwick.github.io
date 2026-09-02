@@ -55,3 +55,7 @@ footer {
 
   color: #666;
 }
+
+nav a.active {
+  font-weight: 700;
+}
